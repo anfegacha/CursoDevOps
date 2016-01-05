@@ -1,3 +1,15 @@
 Curso de DevOps.
 
 	Empezando con Linux.
+
+	Lo primero que vemos cuando abrimos una terminal de linux es el prompt el cual esta compuesto de varias partes
+
+		Lo primero que encontramos es el nombre del usuario seguido de una arroba y del nombre de la maquina.
+		Despues encontramos un " ~ " el cual nos indica que estamos en el home de la maquina. 
+
+	Primeros comandos en Linux.
+
+		ls = nos permite listar los archivos del lugar donde estemos ubicados
+		cd = nos permite ingresar a una carpeta ej: cd Descargas
+		pwd = nos muestra la ruta donde estamos
+		mkdir = nos permite crear carpetas 
