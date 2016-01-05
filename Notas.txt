@@ -10,6 +10,25 @@ Curso de DevOps.
 	Primeros comandos en Linux.
 
 		ls = nos permite listar los archivos del lugar donde estemos ubicados
+			ls -la = nos lista todos los archivos pero nos va a mostrar todos los detalles de los archivos y su informacion.
 		cd = nos permite ingresar a una carpeta ej: cd Descargas
 		pwd = nos muestra la ruta donde estamos
 		mkdir = nos permite crear carpetas 
+		rm = Elimino archivos y casi siempre son para siempre que se borran :(.
+			rm -r "De forma recursiva que borra todo lo que este dentro de carpetas" * "borra todo es todo"
+			Este comando lo unico que no borra es archivos del sistemas.
+
+	Permisos en Sistemas linux.
+
+		Algo que debemos saber manejar y entender el sistema de permisos de linux:
+		Cuando ejecuto en la terminal ls -la este comando me lista los archivos y tambien sus permisos para los diferentes usuario y grupos.
+
+		El sistema de permisos de archivos esta construido en un tipo octype y tiene cuatro componentes importantes:
+			read = que tiene un valor de 4
+			write = que tiene un valor de 2
+			ejecucion = tiene un valor de 1
+
+		Si yo quiero cambiar los permisos que va a tener un archivo o un directorio lo hago asi
+			chmod "la suma de los permisos que quiero para el usuario despues para el grupo y de ultimos los otros usuario"
+
+			chmod 700 
